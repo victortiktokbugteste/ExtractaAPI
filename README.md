@@ -34,6 +34,8 @@ A API estará disponível em:
 - Swagger UI: http://localhost:5000/swagger
 - API: http://localhost:5000
 
+- TAMBÉM DISPONÍVEL COMO WEB APPLICATION PELA AZURE: https://extractaapi.azurewebsites.net/swagger
+
 ### 4. Login da Aplicação
 
 ```bash
