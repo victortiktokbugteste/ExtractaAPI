@@ -56,8 +56,3 @@ O projeto está configurado para usar o banco de dados especificado no arquivo a
   "DefaultConnection": "Server=tcp:claimdb.database.windows.net,1433; Database=claimdb; User Id=victor; Password=@Dev2025;Trusted_Connection=False;Encrypt=True;"
 }
 ```
-
-## Observações
-
-- Certifique-se de que o banco de dados está acessível a partir do contêiner Docker
-- Se necessário, ajuste as configurações de rede para permitir a conexão
