@@ -31,8 +31,8 @@ Este comando irá:
 ### 3. Acesse a API
 
 A API estará disponível em:
-- Swagger UI: http://localhost:8080/swagger
-- API: http://localhost:8080
+- Swagger UI: http://localhost:5000/swagger
+- API: http://localhost:5000
 
 ### 4. Login da Aplicação
 
