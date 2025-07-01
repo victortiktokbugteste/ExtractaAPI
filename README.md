@@ -56,3 +56,11 @@ O projeto está configurado para usar o banco de dados especificado no arquivo a
   "DefaultConnection": "Server=tcp:claimdb.database.windows.net,1433; Database=claimdb; User Id=victor; Password=@Dev2025;Trusted_Connection=False;Encrypt=True;"
 }
 ```
+
+
+## LOG DE ERROS
+
+Os LOGS DE ERRO ficam na tabela ApplicationMiddlewareLogError.
+
+```select * from ApplicationMiddlewareLogError
+```
