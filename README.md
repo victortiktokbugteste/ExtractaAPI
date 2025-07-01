@@ -17,10 +17,10 @@ git clone <url-do-repositorio>
 cd IntegracaoAngular
 ```
 
-### 2. Inicie o contêiner com Docker Compose
+### 2. Execute com Docker Compose
 
 ```bash
-docker-compose up -d
+docker-compose up --build -d
 ```
 
 Este comando irá:
@@ -34,10 +34,11 @@ A API estará disponível em:
 - Swagger UI: http://localhost:8080/swagger
 - API: http://localhost:8080
 
-### 4. Parar o contêiner
+### 4. Login da Aplicação
 
 ```bash
-docker-compose down
+Usuário: teste@gmail.com
+Senha: 1234
 ```
 
 ## Estrutura do Projeto
