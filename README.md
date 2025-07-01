@@ -25,7 +25,7 @@ docker-compose up --build -d
 
 Este comando irá:
 - Construir a imagem da API .NET
-- Iniciar a API na porta 8080 (HTTP) e 8443 (HTTPS)
+- Iniciar a API na porta 5000 (HTTP)
 - Usar a conexão de banco de dados configurada no appsettings.json
 
 ### 3. Acesse a API
