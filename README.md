@@ -62,5 +62,6 @@ O projeto está configurado para usar o banco de dados especificado no arquivo a
 
 Os LOGS DE ERRO ficam na tabela ApplicationMiddlewareLogError.
 
-```select * from ApplicationMiddlewareLogError
+```json
+select * from ApplicationMiddlewareLogError
 ```
