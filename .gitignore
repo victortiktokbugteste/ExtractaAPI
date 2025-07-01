@@ -1,0 +1,108 @@
+# Arquivos e pastas específicos do .NET
+*.swp
+*.*~
+project.lock.json
+.DS_Store
+*.pyc
+nupkg/
+
+# Visual Studio
+.vs/
+.vscode/
+*.user
+*.userosscache
+*.suo
+*.userprefs
+*.dbmdl
+*.jfm
+*.pfx
+*.publishsettings
+
+# Arquivos de build
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+build/
+bld/
+[Bb]in/
+[Oo]bj/
+[Oo]ut/
+msbuild.log
+msbuild.err
+msbuild.wrn
+
+# Arquivos de teste
+TestResults/
+[Tt]est[Rr]esult*/
+coverage*.json
+coverage*.xml
+coverage*.info
+
+# Visual Studio Code
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+
+# Arquivos de ambiente local
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Docker
+.docker/data/
+
+# Arquivos de log
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Arquivos de dependências
+node_modules/
+jspm_packages/
+bower_components/
+
+# Arquivos de IDE JetBrains
+.idea/
+*.sln.iml
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Arquivos de cache
+.npm
+.eslintcache
+.stylelintcache
+
+# Arquivos específicos do SQL Server
+*.mdf
+*.ldf
+*.ndf
+
+# Arquivos de publicação
+*.pubxml
+**/PublishProfiles/
+**/ServiceDependencies/
+
+# Arquivos de configuração com informações sensíveis
+appsettings.Development.json
+appsettings.Production.json
+appsettings.Staging.json
+appsettings.Local.json
+
+# Arquivos de certificados
+*.pfx
+*.cer
+*.pem
+*.key 
